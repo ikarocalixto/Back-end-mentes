@@ -1,0 +1,129 @@
+/* Estilos gerais da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Cabeçalho */
+h2 {
+    color: #333;
+}
+
+/* Botões */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-outline-secondary {
+    background-color: blue;
+    border-color: #6c757d;
+    color: #e7e8ea;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Tabela */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table, .table th, .table td {
+    border: 1px solid #ddd;
+}
+
+.table th, .table td {
+    text-align: left;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Formulário de busca */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.custom-select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 400px;
+    margin: 20px;
+    height: 30px;
+
+}
+
+/* Alertas */
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 10px;
+    border-radius: 5px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.input-group .form-control {
+    flex: 1 0 auto; /* Ocupar o espaço disponível */
+}
+
+.input-group .input-group-append {
+    flex-grow: 0; /* Não permitir que o botão cresça, mantendo-o alinhado ao lado do input */
+}
